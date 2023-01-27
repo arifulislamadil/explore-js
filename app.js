@@ -6,6 +6,7 @@ const names ={
 }
 
 
+
 for(const name in names){
     const value = names[name]
  console.log(value);
@@ -34,3 +35,9 @@ console.log(typeof(getNumber));
 const modu = 3;
 const toModu = modu % 2;
 console.log(toModu);
+
+
+const sibList = ["arif", "sharif", "alamin", "ilias","noralam", "moni"];
+sibList[5]="farjana"
+console.log(sibList)
+
