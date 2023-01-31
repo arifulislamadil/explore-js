@@ -31,3 +31,16 @@ switch(color){
     default:
         console.log("No color match")
 }
+
+const numbers = [2,4,6];
+const addNum = (num)=>{
+    let num1 = 0;
+    for(const n of num){
+      let total = num1+n;
+      num1 = total;
+    }
+    num1/=3;
+    return num1;
+}
+const total = addNum(numbers);
+console.log(total)
