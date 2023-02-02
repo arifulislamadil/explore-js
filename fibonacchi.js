@@ -9,3 +9,8 @@ const num = 10;
 
 const getMath = Math.round(Math.random(num) * 10);
 console.log(getMath)
+
+function add(a, b){
+    return a + b;
+  }
+  console.log(add("adam" + "eve"))
