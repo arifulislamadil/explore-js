@@ -154,9 +154,5 @@ console.log(product); */
 // }
 
 
-const num2 = "10.2";
-console.log(parseInt(num2));
-console.log(typeof num2);
-
 
 
